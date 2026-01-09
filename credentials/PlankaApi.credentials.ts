@@ -9,7 +9,7 @@ export class PlankaApi implements ICredentialType {
     name = 'plankaApi';
     displayName = 'Planka API';
     documentationUrl = '';
-    icon: Icon = "file:../nodes/Planka/planka.svg";
+    icon: Icon = "file:../nodes/Planka/planka.png";
     properties: INodeProperties[] = [
         {
             displayName: 'API URL',
