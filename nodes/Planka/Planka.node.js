@@ -5,7 +5,7 @@ const GenericFunctions_1 = require("./GenericFunctions");
 class Planka {
     constructor() {
         this.description = {
-            displayName: 'Planka254685464',
+            displayName: 'Planka',
             name: 'planka',
             icon: 'file:planka.png',
             group: ['transform'],
