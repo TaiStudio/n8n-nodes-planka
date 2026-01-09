@@ -1,0 +1,4 @@
+.stfolder
+node_modules
+dist
+.stversions
