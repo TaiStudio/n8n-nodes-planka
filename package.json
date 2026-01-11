@@ -28,7 +28,7 @@
         "dev2": "npm run build && npm link",
         "lint": "n8n-node lint",
         "lint:fix": "n8n-node lint --fix",
-        "release": "cp nodes\\Planka\\* dist\\nodes\\Planka\\ && n8n-node release",
+        "release": "cp nodes/Planka/* dist/nodes/Planka/ && n8n-node release",
         "prepublishOnly": "n8n-node prerelease"
     },
     "files": [
