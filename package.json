@@ -1,6 +1,6 @@
 {
     "name": "@taistudio/n8n-nodes-planka",
-    "version": "26.1.12",
+    "version": "26.1.13",
     "description": "n8n community node for Planka - Open Source Project Management",
     "license": "MIT",
     "homepage": "https://github.com/TaiStudio/n8n-nodes-planka",
@@ -38,7 +38,7 @@
         "n8nNodesApiVersion": 1,
         "strict": true,
         "credentials": [
-            "dist/credentials/PlankaApi.credentials.ts"
+            "dist/credentials/PlankaApi.credentials.js"
         ],
         "nodes": [
             "dist/nodes/Planka/Planka.node.js"
