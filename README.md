@@ -1,6 +1,6 @@
 # n8n-nodes-planka
 
-[![npm version](https://badge.fury.io/js/@taistudio/n8n-nodes-planka.svg)](https://badge.fury.io/js/@taistudio/n8n-nodes-planka)
+[![npm version](https://badge.fury.io/js/@taistudio%2Fn8n-nodes-planka.svg)](https://badge.fury.io/js/@taistudio%2Fn8n-nodes-planka)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 n8n community node for Planka - Open Source Project Management
@@ -18,7 +18,7 @@ This n8n node allows you to integrate Planka with your n8n workflows, providing 
 
 ### Option 1: Install from npm
 ```bash
-npm install n8n-nodes-planka-en
+npm install @taistudio/n8n-nodes-planka
 ```
 
 ### Option 2: Install from source
