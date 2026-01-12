@@ -1,6 +1,6 @@
 {
     "name": "@taistudio/n8n-nodes-planka",
-    "version": "26.1.17",
+    "version": "26.1.18",
     "description": "n8n community node for Planka - Open Source Project Management",
     "license": "MIT",
     "homepage": "https://github.com/TaiStudio/n8n-nodes-planka",
