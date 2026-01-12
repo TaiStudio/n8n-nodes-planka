@@ -54,7 +54,7 @@ class Planka {
                     default: 'project',
                     description: 'Main resource to use',
                 },
-                // Operaciones para cada recurso principal
+                // Operations for each main resource
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -976,7 +976,7 @@ class Planka {
                     },
                     description: 'Whether the user is an administrator',
                 },
-                // Operaciones para Board Memberships
+                // Operations for Board Memberships
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1095,7 +1095,7 @@ class Planka {
                     default: 'editor',
                     description: "Member's role on the board",
                 },
-                // Operaciones para Board Labels
+                // Operations for Board Labels
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1204,7 +1204,26 @@ class Planka {
                     default: '#4680FF',
                     description: 'Label color in hexadecimal format (for example, #FF0000 for red)',
                 },
-                // Operaciones para Board Lists
+                {
+                    displayName: 'Position',
+                    name: 'position',
+                    type: 'number',
+                    displayOptions: {
+                        show: {
+                            resource: [
+                                'board',
+                            ],
+                            operation: [
+                                'createBoardLabel',
+                                'updateBoardLabel',
+                            ],
+                        },
+                    },
+                    required: true,
+                    default: '0',
+                    description: 'Label position in number',
+                },
+                // Operations for Board Lists
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1458,7 +1477,7 @@ class Planka {
                     default: 'berry-red',
                     description: 'Color of the list',
                 },
-                // Operaciones para Card Memberships
+                // Operations for Card Memberships
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1525,7 +1544,7 @@ class Planka {
                     default: '',
                     description: 'The ID of the user to add/remove',
                 },
-                // Operaciones para Card Labels
+                // Operations for Card Labels
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1592,7 +1611,7 @@ class Planka {
                     default: '',
                     description: 'The ID of the label to add/remove',
                 },
-                // Operaciones para Card Tasks
+                // Operations for Card Tasks
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1710,7 +1729,7 @@ class Planka {
                     },
                     description: 'Whether the task is completed',
                 },
-                // Operaciones para Card Attachments
+                // Operations for Card Attachments
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1819,7 +1838,7 @@ class Planka {
                     default: '',
                     description: 'Name of the attachment',
                 },
-                // Operaciones para Card Actions
+                // Operations for Card Actions
                 {
                     displayName: 'Operation',
                     name: 'operation',
@@ -1930,7 +1949,7 @@ class Planka {
                     },
                     description: 'Whether to include additional details in the response',
                 },
-                // Operaciones para Project Managers
+                // Operations for Project Managers
                 {
                     displayName: 'Operation',
                     name: 'operation',
