@@ -1,5 +1,5 @@
 {
-    "name": "@taistudio/n8n-nodes-planka",
+    "name": "@hashmesan/n8n-nodes-planka",
     "version": "26.1.18",
     "description": "n8n community node for Planka - Open Source Project Management",
     "license": "MIT",
@@ -55,6 +55,7 @@
         "n8n-workflow": "*"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "registry": "https://npm.pkg.github.com"
     }
 }
