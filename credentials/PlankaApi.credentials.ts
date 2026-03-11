@@ -21,29 +21,24 @@ export class PlankaApi implements ICredentialType {
             description: 'The URL of your Planka instance API',
         },
         {
-            displayName: 'Email',
-            name: 'email',
-            type: 'string',
-            default: '',
-            required: true,
-            description: 'Your Planka account email',
-        },
-        {
-            displayName: 'Password',
-            name: 'password',
+            displayName: 'API Key',
+            name: 'apiKey',
             type: 'string',
             typeOptions: {
                 password: true,
             },
             default: '',
             required: true,
-            description: 'Your Planka account password',
+            description: 'Your Planka API key',
         },
     ];
     test: ICredentialTestRequest = {
         request: {
             baseURL: '={{$credentials?.apiUrl}}',
             url: '/api/config',
+            headers: {
+                'X-Api-Key': '={{$credentials?.apiKey}}',
+            },
         },
     };
 }
